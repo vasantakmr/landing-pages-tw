@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Starter</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Optional: Add custom Tailwind configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1e40af",
+              secondary: "#9333ea",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="text-gray-800 bg-[#faf8f0]">
+    <header class="flex justify-between items-center px-6 py-4 bg-white">
+      <nav class="flex space-x-6">
+        <a href="#" class="text-gray-600 hover:text-black">FAQ</a>
+        <a href="#" class="text-gray-600 hover:text-black">Wall of ❤️</a>
+        <a href="#" class="text-gray-600 hover:text-black">Resources</a>
+        <div class="flex items-center space-x-2">
+          <img
+            src="https://img.icons8.com/color/48/coffee-to-go.png"
+            alt="Logo"
+            class="w-8 h-8"
+          />
+          <h1 class="text-xl font-bold">Buy me a coffee</h1>
+        </div>
+        <input
+          type="text"
+          placeholder="Search creators"
+          class="px-2 py-1 border rounded-3xl bg-gray-100"
+        />
+        <button class="px-4 py-2 rounded-3xl text-black">login</button>
+        <button
+          class="bg-yellow-400 px-4 py-2 rounded-md text-white hover:bg-yellow-500"
+        >
+          Sign up
+        </button>
+      </nav>
+    </header>
+    <section>
+      <div class="text-center py-16 px-6">
+        <div class="flex justify-center gap-3 items-center mb-10">
+          <h2 class="text-green-700 text-[18px]">★★★★★</h2>
+          <span class="text-black-100 text-[18px]"
+            >Loved by 1,000,000+ creators</span
+          >
+        </div>
+
+        <h1 class="text-8xl font-bold">Fund your</h1>
+        <h1 class="text-8xl font-bold mb-4">creative work</h1>
+        <div class="flex items-center w-full justify-center">
+          <p class="text-gray-600 text-[22px] mb-6 max-w-xl">
+            Accept support. Start a membership. Setup a shop. It’s easier than
+            you think.
+          </p>
+        </div>
+        <div class="m-5">
+          <button
+            class="bg-[#ffdd00] px-12 py-5 text-2xl rounded-full font-semibold hover:bg-yellow-200 hover:border-yellow-200 hover:border-4"
+          >
+            Start my page
+          </button>
+        </div>
+        <p class="text-gray-600 text-lg m-6">
+          It’s free and takes less than a minute!
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-6 px-6">
+        <!-- Card 1 -->
+        <div class="w-60 p-4 bg-white rounded-lg shadow-md">
+          <h3 class="font-bold text-lg mb-2">
+            Cara is building a new platform for artists
+          </h3>
+          <p class="text-gray-600">👥 8,780 supporters</p>
+        </div>
+      </div>
+      <div>
+        <div class="w-200 h-300 p-4 bg-white rounded-lg shadow-md">
+          <h3 class="font-bold text-lg mb-2">
+            Cara is building a new platform for artists
+          </h3>
+          <p class="text-gray-600">👥 8,780 supporters</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="m-48"><div>support</div></section>
+
+  </body>
+</html>
